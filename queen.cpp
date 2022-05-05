@@ -3,7 +3,7 @@
 #include "Display.h"
 
 void queen() {
-bool gameBoard::moveQueen(Square* thisQueen, Square* thatSpace) { 
+bool Board::moveQueen(Square* thisQueen, Square* thatSpace) { 
 	int queenX = thisQueen->getX();
 	int queenY = thisQueen->getY();
 	int thatX = thatSpace->getX();
