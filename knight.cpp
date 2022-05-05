@@ -3,7 +3,7 @@
 #include "Display.h"
 
 void knight() {
-	bool gameBoard::moveKnight(Square * thisKnight, Square * thatSpace)
+	bool Board::moveKnight(Square * thisKnight, Square * thatSpace)
 	{
 		int knightX = thisKnight->getX();
 		int knightY = thisKnight->getY();
