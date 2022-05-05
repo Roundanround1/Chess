@@ -3,7 +3,7 @@
 #include "Display.h"
 
 void rook() {
-	bool gameBoard::moveRook(Square * thisRook, Square * thatSpace)
+	bool Board::moveRook(Square * thisRook, Square * thatSpace)
 	{
 
 		int rookX = thisRook->getX();
